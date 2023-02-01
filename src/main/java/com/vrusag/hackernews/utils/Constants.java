@@ -1,4 +1,4 @@
-package com.vrusag.hackernews.config;
+package com.vrusag.hackernews.utils;
 
 public class Constants {
     public static final String VERSION="v0/";

@@ -1,10 +1,10 @@
 package com.vrusag.hackernews.service;
 
-import com.vrusag.hackernews.config.Constants;
 import com.vrusag.hackernews.model.Stories;
 import com.vrusag.hackernews.model.User;
 import com.vrusag.hackernews.repository.HackerNewsUserRepo;
 import com.vrusag.hackernews.repository.HackerStoriesRepository;
+import com.vrusag.hackernews.utils.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;

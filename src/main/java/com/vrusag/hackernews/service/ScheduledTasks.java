@@ -40,7 +40,7 @@ public class ScheduledTasks {
                      // mongoTemplate.insert(stories);*/
         }
         emptyTopStories();
-        log.info("Excecuted 'updateTopStoriesInRepo Schedular' : The time is now {}", dateFormat.format(new Date()));
+        log.info("Excecuted 'updateTopStoriesInRepo Scheduler");
         return storiesArrayList;
     }
 
