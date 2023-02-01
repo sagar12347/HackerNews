@@ -25,8 +25,8 @@ public class SecurityConfig {
                 .password(encoder().encode("userPass"))
                 .roles("USER").build());
         manager.createUser(User
-                .withUsername("vrusagadmin")
-                .password(encoder().encode("adminPass@143"))
+                .withUsername("admin")
+                .password(encoder().encode("adminPass"))
                 .roles("ADMIN").build());
         return manager;
     }
